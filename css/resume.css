@@ -1,5 +1,5 @@
 body {
-    font-size: larger;
+    font-size: large;
 }
 .title {
     text-transform: uppercase;
@@ -45,4 +45,11 @@ ul {
 .position-info {
     margin-top: .5em;
     margin-bottom: .5em;
+}
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none;
+    }
 }
